@@ -1,0 +1,47 @@
+.nbs-flexisel-container {
+    position:relative;
+    max-width: 96%;
+    margin: 0 auto; 
+}
+.nbs-flexisel-ul {
+    position:relative;
+    width:99999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;   
+}
+
+.nbs-flexisel-inner {
+    overflow:hidden;
+    width:96%;
+    margin: 0 auto;
+}
+.nbs-flexisel-item {
+    float:left;
+    margin:0px;
+    padding:0px;
+    cursor:pointer;
+    position:relative;
+}
+
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    width: 23px;
+    height: 60px; 
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    opacity: 0.5;
+    top: 10px;
+}
+
+/* .nbs-flexisel-nav-left {
+    left: 0px;
+    background: url(../image/arrow-left.png) no-repeat 0 bottom;
+}
+
+.nbs-flexisel-nav-right {
+    right: 0px;
+    background: url(../img/arrow-right.png) no-repeat 0 bottom;
+}
+ */
